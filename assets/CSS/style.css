@@ -1,0 +1,26 @@
+body {
+    background-image: url(../images/302118984064201.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin: 0;
+    padding: 10px;
+    max-width: 960px;
+    margin: 30px auto;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(250, 220, 52, 0.831);
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#burgerRoach {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
