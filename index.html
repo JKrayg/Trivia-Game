@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="assets/CSS/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spongebob Trivia!</title>
@@ -14,43 +15,92 @@
         <img id="burgerRoach" src="assets/images/burgerRoach.gif" style="width: 75px; height: 75px;">
     </div>
     <div class="container">
-        <div id="headr">
-            <h1>Spongebob Trivia!</h1>
+        <div id="startCon">
+            <div id="headr">
+                <h1 id="hh1">Spongebob Trivia!</h1>
+            </div>
+            <div >
+                <button id="start-btn">Start</button> 
+            </div>
         </div>
-        <div>
-            <h2 id="timeremaining">Beat the clock!</h2>
+        <div id="question-con">
+            <div>
+                <h2 id="timeremaining"></h2>
+            </div>
+            <div id="questions">
+                <form name="quiz">
+                
+                    <h3>What color is Spongebob's tie?</h3>
+                    <input id=radios type=radio name=q1 value='Blue'> Blue
+                    <input id=radios type=radio name=q1 value='Green'> Green
+                    <input id=radios type=radio name=q1 value='Red'> Red
+                    <input id=radios type=radio name=q1 value='Brown'> Brown
+               
+
+                
+                    <h3>What instrument does Squidward play?</h3>
+                    <input id=radios type=radio name=q2 value='Trumpet'> Trumpet
+                    <input id=radios type=radio name=q2 value='Flute'> Flute
+                    <input id=radios type=radio name=q2 value='Trombone'> Trombone
+                    <input id=radios type=radio name=q2 value='Clarinet'> Clarinet
+               
+
+                
+                    <h3>What is Plankton's real name?</h3>
+                    <input id=radios type=radio name=q3 value='Sheldon J. Plankton'> Sheldon J. Plankton
+                    <input id=radios type=radio name=q3 value='William P. Plankton'> William P. Plankton
+                    <input id=radios type=radio name=q3 value='Christopher J. Plankton'> Christopher J. Plankton
+                    <input id=radios type=radio name=q3 value='Sherly J. Plankton'> Sherly J. Plankton
+                
+
+                
+                    <h3>Who is Mermaid Man's sidekick?</h3>
+                    <input id=radios type=radio name=q4 value='Barnacle Man'> Barnacle Man
+                    <input id=radios type=radio name=q4 value='Flounder Man'> Flounder Man
+                    <input id=radios type=radio name=q4 value='Barnacle Boy'> Barnacle Boy
+                    <input id=radios type=radio name=q4 value='Man Ray'> Man Ray
+                
+
+                
+                    <h3>Where does Mr.Krabs hide his money?</h3>
+                    <input id=radios type=radio name=q5 value='In his shell'> In his shell
+                    <input id=radios type=radio name=q5 value='In his mattress'> In his mattress
+                    <input id=radios type=radio name=q5 value='In his safe'> In his safe
+                    <input id=radios type=radio name=q5 value='In his boatmobile'> In his boatmobile
+                
+
+                
+                    <h3>Where does Patrick live?</h3>
+                    <input id=radios type=radio name=q6 value='In a pineapple'> In a pineapple
+                    <input id=radios type=radio name=q6 value='On top of a rock'> On top of a rock
+                    <input id=radios type=radio name=q6 value='In a glass dome'> In a glass dome
+                    <input id=radios type=radio name=q6 value='Under a rock'> Under a rock
+              
+
+                
+                    <h3>What is Sandy's last name?</h3>
+                    <input id=radios type=radio name=q7 value='Cheeks'> Cheeks
+                    <input id=radios type=radio name=q7 value='Creeks'> Creeks
+                    <input id=radios type=radio name=q7 value='Cheats'> Cheats
+                    <input id=radios type=radio name=q7 value='Smith'> Smith
+                
+
+                
+                    <h3>What is Spongebob's driving teacher's name?</h3>
+                    <input id=radios type=radio name=q8 value='Mrs.Tough'> Mrs.Tough
+                    <input id=radios type=radio name=q8 value='Mrs.Chucks'> Mrs.Chucks
+                    <input id=radios type=radio name=q8 value='Mr.Puff'> Mr.Puff
+                    <input id=radios type=radio name=q8 value='Mrs.Puff'> Mrs.Puff
+                </form>
+            </div>
+                
+            <div id="doneBtn"></div>
         </div>
-        <div id="questionuno">
-            <h3 id="questionone">question one here</h3>
-            <p id="answersone">answers one here</p>
-        </div>
-        <div id="questiondos">
-            <h3 id="questiontwo">question two here</h3>
-            <p id="answerstwo">answers two here</p>
-        </div>
-        <div id="questiontres">
-            <h3 id="questionthree">question three here</h3>
-            <p id="answersthree">answers three here</p>
-        </div>
-        <div id="questionquatro">
-            <h3 id="questionfour">question four here</h3>
-            <p id="answersfour">answers four here</p>
-        </div>
-        <div id="questioncinco">
-            <h3 id="questionfive">question five here</h3>
-            <p id="answersfive">answers five here</p>
-        </div>
-        <div id="questionseis">
-            <h3 id="questionsix">question six here</h3>
-            <p id="answerssix">answers six here</p>
-        </div>
-        <div id="questionsiete">
-            <h3 id="questionseven">question seven here</h3>
-            <p id="answersseven">answers seven here</p>
-        </div>
-        <div id="questionocho">
-            <h3 id="questioneight">question eight here</h3>
-            <p id="answerseight">answers eight here</p>
+        <div id="end-con">
+            <h3 id="correct"></h3>
+            <h3 id="incorrect"></h3>
+            <h3 id="unanswered"></h3>
+            <img id="spongebob-img" src="assets/images/patrick.gif" style="width: 100px; height: 100px;">
         </div>
     </div>
     

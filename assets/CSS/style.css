@@ -12,11 +12,13 @@ body {
     border: 1px solid black;
     text-align: center;
     background-color: rgba(250, 220, 52, 0.831);
+    clear: both;
 
 }
 
 h1 {
     font-size: 60px;
+    font-family: "Press Start 2P",sans-serif;
 }
 
 #burgerRoach {
@@ -24,3 +26,24 @@ h1 {
     top: 0;
     right: 0;
 }
+
+#start-btn {
+    font-size: 30px;
+    font-family: "Press Start 2P",sans-serif;
+    border: 1px solid black;
+    margin-top: 60px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(101, 156, 201, 0.838);
+}
+
+#start-btn:hover {
+    background-color: rgb(90, 139, 179);
+    transition: all 0.2s ease-in;
+}
+
+#start-btn:visited {
+    border: none;
+}
+
